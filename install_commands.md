@@ -8,6 +8,7 @@ sudo apt-get update
 * view the packages'list
 
 sudo apt list | grep python3.10
+
 sudo apt install python3.10 python3.10-venv python3.10-dev python3.10-distutils
 
 # add pip3.10 to PATH
@@ -26,6 +27,7 @@ python -m pip install apache-airflow
 
 # init airflow
 airflow db init
+
 airflow users create --username admin --password admin --firstname Anonymous --lastname Admin --role Admin --email admin@example.org 
 
 # check webserver and scheduler
